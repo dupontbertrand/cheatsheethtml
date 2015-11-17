@@ -30,7 +30,3 @@ header > .clear {
   clear: both;
   height: 0; overflow: hidden; /* Précaution pour IE 7 */
 }
-
-.col-md-5 {
-  background-color:
-}
