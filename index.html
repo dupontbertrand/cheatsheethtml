@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Cheat Sheet HTML5</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <!-- My css -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <nav>
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a href="#">
+                      Acceuil
+                    </a>
+          </li>
+          <li>
+            <a href="#">HTML</a>
+          </li>
+          <li>
+            <a href="#">CSS</a>
+          </li>
+          <li>
+            <a href="#">Terminal</a>
+          </li>
+          <li>
+            <a href="#">Ubuntu</a>
+          </li>
+          <li>
+            <a href="#">ATOM</a>
+          </li>
+          <li>
+            <a href="#">GIT et GITHUB</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <header>
+      <div id="page-content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <img id="logo" src="logohtml.png" alt="logo html"/>
+              <img src="logo-roubaix.png" alt="logo roubaix" class="center-block" />
+              <div class="clear"></div>
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+              <!-- <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+
+        <div class="jumbotron">
+<h1>Cheat Sheet HTML</h1>
+<p>Retrouvez ici les balises indispensables</p>
+<div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    En savoir plus <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html#r-1608356">OpenClassrooms</a></li>
+    <li><a href="https://www.codecademy.com/fr/learn/web">Codeacademy</a></li>
+    <li><a href="http://www.w3schools.com/html/">W3C</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-5">
+          <h2> Général : </h2>
+          <p>
+            <code>&lt;a href="http://www.google.fr" &gt; Texte à afficher &lt;/a&gt;</code> Lien simple</p>
+          <p>
+            <code>&lt;a href="http://www.google.fr" &gt; &lt;img src="URL"/&gt; &lt;/a&gt;</code> Image cliquable</p>
+          <p>Si l'URL comporte des "&", il faut les remplacer en "& amp" (sans l'espace)</p>
+
+          <p>
+            <code>&lt;a href="http://www.google.com" title="Cliquez ici pour google"&gt; Google&lt;/a&gt;</code> Au survol du lien, affiche "Cliquez ici pour google"</p>
+          <p>
+            <code>&lt;a href="mailto:exemple@gmail.com"&gt; Envoyez-moi un e-mail !&lt;/a&gt;</code> Envoie d'e-mail</p>
+
+          <p>
+            <code>&lt;a href="#mon_ancre"&gt; Aller vers l'ancre&lt;/a&gt;</code>
+          </p>
+          <p>
+            <code>&lt;p id="mon_ancre"&gt; Titre&lt;/p&gt;</code>
+          </p>
+
+
+          <p>
+            <code>&lt;img src="Lien" alt="Commentaire" title="Comm au survol" /&gt;</code> alt permet un commentaire au cas où l'image n'apparait pas le title donne un commentaire au survol du curseur</p>
+
+
+          <p>
+            <code>&lt;h1&gt; &lt;/h1&gt;</code>
+          </p>
+          <p>...</p>
+          <p>
+            <code>&lt;h6&gt; &lt;/h6&gt;</code>
+          </p>
+
+          <p>Titre du plus grand
+            <code>&lt;h1&gt;</code> au plus petit
+            <code>&lt;h6&gt;</code>
+          </p>
+
+          &lt;!-- Je suis un commentaire --&gt;
+
+          <p>
+            <code>&lt;em&gt; &lt;/em&gt;</code> Mise en valeur</p>
+          <p>
+            <code>&lt;strong&gt; &lt;/strong&gt;</code> Mise en valeur forte</p>
+
+          <p>
+            <code>&lt;/br&gt;</code> Retour à la ligne</p>
+        </div>
+        <div class="col-md-3">
+
+          <h2>Listes :</h2>
+          <p></p>
+          <p>
+            <code>&lt;ol&gt; &lt;/ol&gt;</code> Ordered List (Liste ordonnée)</p>
+          <p>
+            <code>&lt;ul&gt; &lt;/ul&gt;</code> Unordered List (Liste NON ordonnée)</p>
+          <p>
+            <code>&lt;li&gt; &lt;/li&gt;</code> Pour les éléments de listes.</p>
+          <p>Peuvent s'imbriquer sans soucis. (Penser à TAB)</p>
+
+          <p>
+            <code>list-style-type:none;</code> (Pour supprimer les puces)</p>
+
+        </div>
+        <div class="col-md-4">
+
+          <h2>Tableaux :</h2>
+
+          <p>
+            <code>&lt;table&gt; &lt;/table&gt;</code> Tout début et tout à la fin du tableau pour délimiter</p>
+          <p>
+            <code>&lt;tr&gt; &lt;/tr&gt;</code> Ligne</p>
+          <p>
+            <code>&lt;td&gt; &lt;/td&gt;</code> Cellule</p>
+          <p>
+            <code>&lt;th&gt; &lt;/th&gt;</code> Cellule d'en tête</p>
+          <p></p>
+          <p><span class="care">Balises Génériques</span></p>
+          <p></p>
+          <p>
+            <code>&lt;span&gt;</code> Balise de type INLINE</p>
+          <p>
+            <code>&lt;div&gt;</code> Balise de type BLOCK</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

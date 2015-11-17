@@ -1,0 +1,36 @@
+
+#logo {
+  float: left;
+}
+
+section a {
+  margin-left: 5%;
+}
+
+section p {
+  margin-left: 5%;
+  font-size: 1.1em;
+}
+
+.care {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 0.3em;
+  border-radius: 10%;
+}
+code {
+  background-color: lightblue;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 0.1em;
+}
+
+header > .clear {
+  clear: both;
+  height: 0; overflow: hidden; /* Précaution pour IE 7 */
+}
+
+.col-md-5 {
+  background-color:
+}
