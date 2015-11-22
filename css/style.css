@@ -76,14 +76,14 @@ header > .clear {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
+  #logoroubaix {
+    display: none;
+  }
   .container-fluid {
     position: relative;
   }
   .firstjumbo {
     margin-top: 15em;
-  }
-  #logoroubaix {
-    display: none;
   }
   #menu-toggle {
     margin-top: 2em;
